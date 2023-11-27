@@ -144,21 +144,61 @@ main > section .col-big,
 main > section .col-small {
   /* debug */
   height: 400px;
-  border: 2px dashed black;
 }
 
 main > section .col-big {
   flex-basis: 60%;
-
-  /* debug */
-  background-color: #1e90ff;
 }
 
 main > section .col-small {
   flex-basis: 40%;
+}
 
-  /* debug */
-  background-color: #ffc0cb;
+.col-small-title {
+  font-size: 45px;
+  padding-bottom: 30px;
+}
+
+.col-small-parag {
+  font-size: 20px;
+}
+
+.col-title {
+  color: black;
+  font-size: 50px;
+  text-align: center;
+}
+
+.col-title-3 {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  background-image: url(/img/stars.svg);
+}
+
+.col-parag {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.col-img {
+  display: flex;
+  justify-content: center;
+  margin-left: 80px;
+}
+
+.col-blue-button {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: #1473d3;
+  border-radius: 10px;
+  margin-left: 400px;
+  float: inline-start;
 }
 
 main > .download > .container {
@@ -168,8 +208,6 @@ main > .download > .container {
 main > .download .col {
   /* debug */
   height: 800px;
-  background-color: #228b22;
-  border: 2px dashed black;
 }
 
 /* ## FOOTER */
