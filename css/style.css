@@ -22,11 +22,28 @@
 
 /* ## HEADER */
 
+.header__nav {
+  color: white;
+  font-style: bold;
+  font-size: larger;
+  word-spacing: 45px;
+}
+
+.header__login {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-style: bold;
+  font-size: larger;
+  background-color: white;
+  border-radius: 20px;
+}
+
 .header {
   height: 80px;
 
   /* debug */
-  background-color: #add8e6;
+  background-color: #1473d3;
 }
 
 .header > .container {
@@ -39,9 +56,9 @@
   flex-basis: 200px;
   padding: 10px;
 
-  /* debug */
+  /* debug 
   background-color: #d9a41f;
-  border: 2px dashed black;
+  border: 2px dashed black;*/
 }
 
 .header > .container > .header__nav {
@@ -52,9 +69,7 @@
 
 .jumbotron {
   padding: 3rem 0;
-
-  /* debug */
-  background-color: #00008b;
+  background-image: url(../img/jumbo.png);
 }
 
 .jumbotron .jumbotron__content {
@@ -62,9 +77,45 @@
   margin: 0 auto;
 
   /* debug */
-  background-color: #ee82ee;
-  border: 2px dashed black;
+
   height: 400px;
+}
+
+.jumbo-title {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.jumbo-text {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.jumbo-white-button {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: white;
+  border-radius: 10px;
+  float: inline-start;
+  margin-left: 120px;
+}
+
+.jumbo-black-button {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: black;
+  border-radius: 10px;
+  float: inline-start;
+  margin-left: 10px;
 }
 
 /* ## ROWS SECTION */
